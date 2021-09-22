@@ -9,9 +9,7 @@ export default class App extends Component{
         <HomeScreen />
       </View>
     )
-  }
-  
-} <TextInput
+  }<TextInput
   style={styles.inputbox}
   onChangeText={text => {
     this.setState({
@@ -25,3 +23,5 @@ export default class App extends Component{
   }}>
 </TextInput>
 
+  
+} 
